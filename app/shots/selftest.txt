@@ -1,0 +1,24 @@
+PASS raster decoder reads 2 pages (got 2)
+PASS raster pixel colour red (got Color [A=255, R=255, G=0, B=0])
+PASS raster white fill (got Color [A=255, R=255, G=255, B=255])
+PASS raster dpi 300
+PASS Get-Printer-Attributes status ok (0x0000)
+PASS folder printer offers PDF and raster: image/urf,application/pdf,image/jpeg,application/octet-stream
+PASS printer-uri-supported ipp://127.0.0.1:45561/printers/Test_Folder
+PASS urf-supported has RS600
+PASS media-col-database has 11 sizes
+PASS Print-Job (raster, chunked) accepted (0x0000)
+PASS job-id returned 1
+PASS Print-Job (JPEG) accepted (0x0000)
+PASS jobs completed: Completed,Completed
+     files: 20261107-153637-610-Photo  test.pdf | 20261107-153637-621-snapshot.jpg
+PASS raster job saved as PDF
+PASS PDF file name pattern YYYYMMDD-hhmmss-mmm-<job>.pdf
+PASS JPEG job saved as .jpg
+PASS Get-Jobs lists 2 completed jobs
+PASS secured printer answers 401 without password (401)
+PASS secured printer accepts the right password
+PASS announcer answers the _universal printer question
+PASS answer has 1 PTR and 3 extra records SRV/TXT/A (got 1/3)
+PASS answer names the printer, its TXT and host
+ALL PASSED

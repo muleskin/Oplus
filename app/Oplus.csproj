@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Oplus</RootNamespace>
+    <AssemblyName>Oplus</AssemblyName>
+    <ApplicationHighDpiMode>SystemAware</ApplicationHighDpiMode>
+    <Version>1.0.0</Version>
+    <Product>Oplus Print Share</Product>
+    <Description>Share Windows printers and folders with iPhone and iPad</Description>
+    <NoWarn>$(NoWarn);CA1416;SYSLIB0014;WFO1000</NoWarn>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="shots\**;publish\**" />
+    <None Remove="shots\**;publish\**" />
+  </ItemGroup>
+
+  <!-- dotnet publish -p:PublishProfile=SingleExe  →  publish\Oplus.exe (one self-contained file) -->
+
+</Project>

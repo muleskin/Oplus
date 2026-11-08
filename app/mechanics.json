@@ -1,0 +1,218 @@
+{
+  "version": 1,
+  "values": [
+    {
+      "name": "service type",
+      "group": "sharing",
+      "value": "_ipp._tcp,_universal"
+    },
+    {
+      "name": "real printer formats",
+      "group": "sharing",
+      "value": "image/urf,image/jpeg"
+    },
+    {
+      "name": "folder printer formats",
+      "group": "sharing",
+      "value": "image/urf,application/pdf,image/jpeg"
+    },
+    {
+      "name": "real printer default resolution",
+      "group": "sharing",
+      "value": 600,
+      "unit": "dpi"
+    },
+    {
+      "name": "folder printer resolution",
+      "group": "sharing",
+      "value": 600,
+      "unit": "dpi"
+    },
+    {
+      "name": "TXT priority",
+      "group": "sharing",
+      "value": 40
+    },
+    {
+      "name": "URF capabilities",
+      "group": "sharing",
+      "value": "CP1,IS1,OB10,PQ3-4-5,MT1-2-3-4-5-6,DM3"
+    },
+    {
+      "name": "URF version prefix",
+      "group": "sharing",
+      "value": "V1.4",
+      "estimated": true
+    },
+    {
+      "name": "first default port",
+      "group": "network",
+      "value": 631
+    },
+    {
+      "name": "second default port",
+      "group": "network",
+      "value": 12631
+    },
+    {
+      "name": "custom port minimum",
+      "group": "network",
+      "value": 1024
+    },
+    {
+      "name": "custom port maximum",
+      "group": "network",
+      "value": 65535
+    },
+    {
+      "name": "fit page to printable area",
+      "group": "printing",
+      "value": "stretch"
+    },
+    {
+      "name": "landscape when wider than tall",
+      "group": "printing",
+      "value": true
+    },
+    {
+      "name": "duplex mode value",
+      "group": "printing",
+      "value": 3
+    },
+    {
+      "name": "log rollover size",
+      "group": "log",
+      "value": 1073741824,
+      "unit": "bytes"
+    },
+    {
+      "name": "log header",
+      "group": "log",
+      "value": "Date,Action,Printer Name,User,MAC address,File Name,Page"
+    },
+    {
+      "name": "folder file name pattern",
+      "group": "folder",
+      "value": "YYYYMMDD-hhmmss-mmm-<job name>"
+    },
+    {
+      "name": "URF to PDF for folder printers",
+      "group": "folder",
+      "value": true,
+      "estimated": true
+    },
+    {
+      "name": "email field max length",
+      "group": "email",
+      "value": 32,
+      "unit": "characters"
+    },
+    {
+      "name": "email subject max length",
+      "group": "email",
+      "value": 128,
+      "unit": "characters"
+    },
+    {
+      "name": "list background",
+      "group": "look",
+      "value": "#E9EDF4"
+    },
+    {
+      "name": "button face",
+      "group": "look",
+      "value": "#CCE8CF"
+    },
+    {
+      "name": "main window size",
+      "group": "look",
+      "value": "310x165",
+      "unit": "dialog units"
+    },
+    {
+      "name": "new printers shared by default",
+      "group": "behaviour",
+      "value": true
+    },
+    {
+      "name": "printer name max length",
+      "group": "edit",
+      "value": 256,
+      "unit": "characters"
+    },
+    {
+      "name": "location max length",
+      "group": "edit",
+      "value": 256,
+      "unit": "characters"
+    },
+    {
+      "name": "security field max length",
+      "group": "security",
+      "value": 32,
+      "unit": "characters"
+    },
+    {
+      "name": "log page title colour",
+      "group": "log",
+      "value": "#BBE094"
+    },
+    {
+      "name": "log page header colour",
+      "group": "log",
+      "value": "#232584"
+    },
+    {
+      "name": "log page cell colour",
+      "group": "log",
+      "value": "#9E9E9F"
+    },
+    {
+      "name": "list double-click",
+      "group": "controls",
+      "value": "open print queue or folder"
+    },
+    {
+      "name": "remove folder printer asks first",
+      "group": "controls",
+      "value": false
+    },
+    {
+      "name": "minimum resolution kept",
+      "group": "sharing",
+      "value": 300,
+      "unit": "dpi"
+    },
+    {
+      "name": "maximum resolution kept",
+      "group": "sharing",
+      "value": 600,
+      "unit": "dpi"
+    },
+    {
+      "name": "fallback paper",
+      "group": "sharing",
+      "value": "A4"
+    },
+    {
+      "name": "network printers listed",
+      "group": "behaviour",
+      "value": false
+    },
+    {
+      "name": "new printer location",
+      "group": "behaviour",
+      "value": "<app>@<computer name>"
+    },
+    {
+      "name": "port setting registry type",
+      "group": "network",
+      "value": "REG_MULTI_SZ"
+    },
+    {
+      "name": "licence required",
+      "group": "behaviour",
+      "value": false
+    }
+  ]
+}
